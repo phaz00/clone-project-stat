@@ -2,3 +2,12 @@
 @import "_reset.css";
 
 /* top_bar */
+header{
+    width: 1280px;
+    height: 800px;
+    margin:0 auto
+}
+.top_bg{
+    background: url(../images/top_bg.jpg) no-repeat center/cover;
+    height:800px;
+}
