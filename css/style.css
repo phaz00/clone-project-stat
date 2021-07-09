@@ -4,10 +4,19 @@
 /* top_bar */
 header{
     width: 1280px;
-    height: 800px;
+    height: 856px;
     margin:0 auto
 }
 .top_bg{
     background: url(../images/top_bg.jpg) no-repeat center/cover;
-    height:800px;
+    height:856px;
+}
+.logo{
+    float: left;
+}
+.top_nav_warp ul, .login ul{
+    float: left;
+}
+.top_nav_warp li, .login li{
+    float: left;
 }
