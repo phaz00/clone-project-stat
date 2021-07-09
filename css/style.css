@@ -11,11 +11,26 @@ header{
     background: url(../images/top_bg.jpg) no-repeat center/cover;
     height:856px;
 }
-.logo{
+#top_bar{
+    color:#fff;
+    font-size: 1.2rem;
+    height: 80px;
+    position: relative;
+}
+#top_bar div{
     float: left;
 }
-.top_nav_warp ul, .login ul{
-    float: left;
+.top_nav_warp_menu{
+    position: absolute;
+    right: 0;
+    height: 80px;
+    line-height: 80px;
+}
+.top_nav_warp li{
+    padding:0 10px;
+}
+.top_nav_warp li:nth-child(5){
+    padding-right:50px;
 }
 .top_nav_warp li, .login li{
     float: left;
