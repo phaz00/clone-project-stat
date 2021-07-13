@@ -3,19 +3,26 @@
 
 /* top_bar */
 header{
+    height: 856px;
+    position: relative;
+}
+.top_contener{
+    width: 100%;
+    margin: 0 auto;
+    background: url(../images/top_bg.jpg) no-repeat center/cover;
+    height:856px;
+    position: absolute;
+    
+}
+.top_bg{
     width: 1280px;
     height: 856px;
     margin:0 auto
-}
-.top_bg{
-    background: url(../images/top_bg.jpg) no-repeat center/cover;
-    height:856px;
 }
 #top_bar{
     color:#fff;
     font-size: 1.2rem;
     height: 80px;
-    position: relative;
 }
 #top_bar div{
     float: left;
@@ -34,4 +41,253 @@ header{
 }
 .top_nav_warp li, .login li{
     float: left;
+}
+
+/* main */
+#main{
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+/* material */
+
+.material_main{
+    width: 100%;
+    background-color: lawngreen;
+    /* height: 100%; */
+    margin:100px 0 200px 0;
+    /* position: relative; */
+}
+
+.material{
+    width: 100%;
+    margin:0 auto;
+}
+.material_text{
+    padding-left:50px;
+}
+.material_text span{
+    font-size: 24px;
+    color: #333;
+    font-weight: 300;
+    line-height: 40px;
+    letter-spacing: -1px;
+    
+}
+.material_text p{
+    padding-top: 4px;
+    font-size: 20px;
+    color: #333;
+    line-height: 34px;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+.material_slide{
+    margin-top:60px;
+    padding-left:186px;
+}
+.slide_img{
+    width: 100%;
+    height: 582px;
+    overflow: hidden; /*넘치지 말아라 */
+}
+.slide_img_move{
+    float: left;
+    width: 418px;
+    height: 582px;
+    margin-right:30px;   
+    position: relative; 
+}
+.slide_img_img img{
+    width: 418px;
+    height: 582px;
+    position: absolute;
+}
+.slide_img_text{
+    position: absolute;
+    font-size: 25px;
+    color: #fff;
+    font-weight: bold;
+    left:5%;
+    bottom:5%;
+}
+
+/* modern */
+.modern{    
+    width: 100%; 
+}
+/* .modern_react{
+    width: 100%;    
+} */
+.nav2_bg{
+   width: 100%;
+}
+.nav2{    
+    width: 1280px;
+    margin:0 auto;
+    position: relative;
+}
+.nav2 ul{
+    position: absolute;
+    right: 0;
+    top:-50px;
+    background-color: lightcoral;
+}
+.nav2 li{
+    float: left;
+    padding:0 20px 0 0; 
+    font-size: 24px;
+    color: #333;
+}
+.modern_img_react{
+    width: 100%;
+    background-color: #ecebe7;
+}
+.moder_img_react_size{
+    width: 1280px;
+    margin:0 auto;
+}
+.moder_img_react_size img{
+    width: 100%;
+    max-width: 100%;
+}
+.img_react1{
+    width: 50%;
+    float: left;
+    margin-top: 100px;
+}
+.img_react2{
+    width: 30%;
+    float: left;
+    margin-top: 27%;
+    margin-left:20%;
+}
+.img_react3{
+    width: 57%;
+    float: right;
+    margin-right: 13%;
+}
+.img_react3_text1{
+    float: right;
+    width: 57%;
+    margin-right: 13%;
+}
+.img_react3_text1 p{
+    font-size: 22px;
+    margin:0 0 20px 0;
+}
+.img_react3_text1 span{
+    font-size: 20px;
+    font-weight: bold;
+   
+}
+.img_react4{
+    float: left;
+}
+.button_react{
+    width: 57%;
+    float: right;
+    margin-right:30%;
+    margin: 50px 0 0 0;
+}
+
+.react_button span{
+    font-size: 20px;
+    color: rgb(155, 155, 155);
+    border-top: 2px solid rgb(155, 155, 155);
+    border-bottom: 2px solid rgb(155, 155, 155);    
+    padding:10px 30px; 
+}
+.img_react4_title{
+    font-size: 30px;
+    font-weight: bold;
+    padding:20px 0;
+}
+.img_react4_main{
+    font-size: 20px;
+
+}
+.img_react4{
+    text-align: center;
+    margin:100px;    
+}
+.img_react4_button{
+    width: 100%;
+    margin:2% 43%;
+    
+}
+.img_react4_button p{
+    font-size: 13px;
+    color: rgb(155, 155, 155);
+    border-top: 1px solid rgb(155, 155, 155);
+    border-bottom: 1px solid rgb(155, 155, 155);    
+    padding:10px 20px; 
+    text-align: center; 
+    width: 150px;   
+}
+
+.img_react4_video{
+    margin-top:30px;
+}
+
+/*product*/
+.product{
+    width: 100%;
+    margin:0 auto;
+   
+}
+.product_main{
+    width: 1280px;
+    /* position: absolute; */
+}
+
+.Unalterable{
+    width: 1280px;
+    margin:0 auto;   
+}
+.Unalterable_main{
+    /* position: absolute; */
+    width: 100%;
+}
+
+.magazine{
+    width: 1280px;
+    margin:0 auto;   
+}
+._main{
+    /* position: absolute; */
+    width: 100%;
+}
+
+.contact{
+    width: 1280px;
+    margin:0 auto;   
+}
+.contact_main{
+    /* position: absolute; */
+    width: 100%;
+}
+.product_menu{
+    width: 1280px;
+    /* float: left; */
+}
+.product_menu li{
+    float: left;
+}
+.
+/*footer*/
+.footer{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.footer_bg{
+    background-color: lightcoral;
+    /* position: absolute; */
+    width: 100%;
+}
+.footer_menu{
+    width: 1280px;
+    margin: 0 auto;
 }

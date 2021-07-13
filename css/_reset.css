@@ -7,6 +7,9 @@
 body{
     font-family:sans-serif, Noto Sans KR, NanumGothic, Gulim; 
     color:#333;
+    /* position: relative; */
+    width: 100%;
+    margin: 0 auto;
    
 }
 a, a:link{
