@@ -1,0 +1,15 @@
+# images 이미지 무시!!
+!images/
+
+# 각종파일 무시!
+*.jpg
+*.png
+*.gif
+*.svg
+*.log
+*.xlsx
+*.hwo
+*.doc
+*.psd
+*.ai
+*.pdf
